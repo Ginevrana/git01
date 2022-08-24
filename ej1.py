@@ -19,3 +19,7 @@ nombre = input("Ingrese su nombre:")
 dni = input("Ingrese su DNI:")
 
 print(f'El nombre del usuario es {nombre} y su DNI es {dni}')
+
+
+# Ejercicio 4
+# Vengo usando comentarios que indican a qué se refiere el código usado
