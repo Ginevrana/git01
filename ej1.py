@@ -22,4 +22,7 @@ print(f'El nombre del usuario es {nombre} y su DNI es {dni}')
 
 
 # Ejercicio 4
-# Vengo usando comentarios que indican a qué se refiere el código usado
+# Vengo usando comentarios que indican a qué se refiere el código usado.
+
+# Ejercicio 5
+# Cada punto fue subido al repositorio remoto en un commit diferente. 
