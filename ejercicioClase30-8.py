@@ -16,9 +16,9 @@ def main():
     impar = input("Ingrese un número impar: ")
 
     if (int(impar) % 2):
-        print(input("Ingrese un número impar: "))
-    else:
         print("El número ingresado es impar")
+    else:
+        print(input("Ingrese un número impar: "))
     print("Próxima instrucción")
 
 
@@ -57,10 +57,10 @@ def main():
 
 # Ejercicio 4
 
-    verduleria = (["manzanas", "peras", "naranjas"])
-    for i in verduleria(0, len(i)):
-        resultado = i + 1
-        print (resultado)
+   # verduleria = (["manzanas", "peras", "naranjas"])
+    #for i in verduleria(0, len(i)):
+     #   resultado = i + 1
+      #  print (resultado)
 
 
 
