@@ -23,8 +23,8 @@ def main():
 
 
 # Ejercicio 2
-    numero1 = input("Ingrese el primer número: ")
-    numero2 = input("Ingrese el segundo número: ")
+    numero1 = int(input("Ingrese el primer número: "))
+    numero2 = int(input("Ingrese el segundo número: "))
 
     print("1. Sumar, 2. restar y 3. multiplicar")
 
@@ -46,16 +46,22 @@ def main():
 # Ejercicio 3
     email = input("Ingrese su mail: ")
 
-    while (email):
-        if (email != "@"):
-            print("La información ingresada no es un mail")
-        else:
+    while (email == "@"):
+        if (email == "@"):
             print("La información ingresada es un mail")
+            break
+        else:
+            print("La información ingresada no es un mail")
+            break
 
 
 # Ejercicio 4
 
     verduleria = (["manzanas", "peras", "naranjas"])
+    for i in verduleria(0, len(i)):
+        resultado = i + 1
+        print (resultado)
+
 
 
 if __name__ == '__main__':
