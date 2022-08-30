@@ -15,30 +15,30 @@ def main():
 
     a=3
 
-        if (a < 4):
-            print(a)
+    if (a < 4):
+        print(a)
 
     print("Próxima instrucción")
 
 
 # Flujo condicional II
     b=3
-        if (b < 4):
-            print(a)
-        else:
-            print("No es menor a 4")
+    if (b < 4):
+        print(a)
+    else:
+        print("No es menor a 4")
 
     print("Próxima instrucción")
 
 
 # Flujo condicional III
     c=3
-        if (c =< 4):
-            print(a)
-        elif (c == 5):
-            print("Es igual a 5")
-        else:
-            print("Es mayor a 5")
+    if (c =< 4):
+        print(a)
+    elif (c == 5):
+        print("Es igual a 5")
+    else:
+        print("Es mayor a 5")
 
     print("Próxima instrucción")
 
