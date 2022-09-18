@@ -76,6 +76,22 @@ def main():
 
     promedio = contador / numeros
     print(promedio)
+ 
+# Ejercicio 7
+    mayor=lista[0]
+    
+    for i in range(0, len(lista)):
+        if lista [i]>mayor:
+            mayor=lista[i]
+    print(mayor)
+
+# Ejercicio 8
+    menor=lista[0]
+    
+    for i in range(0,len(lista)):
+        if lista[i]<menor:
+            menor=lista[i]
+    print(menor)
 
 if __name__ == '__main__':
     main()
