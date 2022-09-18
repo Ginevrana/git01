@@ -63,6 +63,19 @@ def main():
         print (resultado)
 
 
+# Ejercicio 6
+
+    lista=[5,34,81,27,19]
+    contador=0
+    numeros=0
+    for i in lista:
+        contador = contador + i
+
+    for i in lista:
+        numeros = numeros + i
+
+    promedio = contador / numeros
+    print(promedio)
 
 if __name__ == '__main__':
     main()
