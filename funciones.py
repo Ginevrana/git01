@@ -48,6 +48,21 @@ def recortar(a,b,c):
         return a
 
 print(recortar(7,6,9))
-    
-    
-    
+
+
+# Ejercicio 6 - Realizar funcion que se llame separar ()
+lista=[1,58,36,97,45,61,2,86]
+
+def separar():
+    pares=[]
+    impares=[]
+    for i in lista:
+        if (i%2==0):
+            pares.append(i)
+        else:
+            impares.append(i)
+        return pares.sort(), impares.sort()
+
+pares, impares = separar()
+
+print(pares,impares)
