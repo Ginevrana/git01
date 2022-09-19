@@ -35,6 +35,19 @@ def intermedio(a,b):
     return resultado/2
 
 print(f'El Nº intermedio es: {intermedio(56,84)} ')
+
+
+# Ejercicio 5 - Realizar una función que se llame recortar()
+
+def recortar(a,b,c):
+    if a<b:
+        return b
+    elif a>c:
+        return c
+    else:
+        return a
+
+print(recortar(7,6,9))
     
     
     
