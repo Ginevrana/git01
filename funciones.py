@@ -1,5 +1,8 @@
 # Ejercicio 1 - Realizar función que se llame area_rectangulo()
 
+from xml.dom.minidom import ReadOnlySequentialNamedNodeMap
+
+
 def area_rectangulo(x,y):
     return x*y
 
@@ -24,3 +27,14 @@ def relacion(x,y):
         return 0
 
 print(relacion(5,5))
+
+# Ejercicio 4 - Realizar función que se llame intermedio ()
+
+def intermedio(a,b):
+    resultado = a+b
+    return resultado/2
+
+print(f'El Nº intermedio es: {intermedio(56,84)} ')
+    
+    
+    
