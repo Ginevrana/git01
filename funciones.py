@@ -61,7 +61,11 @@ def separar():
             pares.append(i)
         else:
             impares.append(i)
-        return pares.sort(), impares.sort()
+
+    pares.sort()
+    impares.sort()
+
+    return pares, impares
 
 pares, impares = separar()
 
