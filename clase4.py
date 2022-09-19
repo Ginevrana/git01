@@ -27,22 +27,22 @@ a=[[23,45,63],[72,81,91],[56,64,37],[34,75,26]]
 print(a[1])
 # Resultado [72, 81, 91]
 
-# Para acceder a una posición específica
-print(a[1][2])
-# Resultado 91
+# # Para acceder a una posición específica
+# print(a[1][2])
+# # Resultado 91
 
 
-# MATRICES MULTIDIMENSIONALES
-# La lista de python se puede extender y manejar listas en más niveles
+# # MATRICES MULTIDIMENSIONALES
+# # La lista de python se puede extender y manejar listas en más niveles
 
-mul= [1,[11,22],[[111,222],[333,444]]]
+# mul= [1,[11,22],[[111,222],[333,444]]]
 
-print(mul[0])
-# Resultado: 1
+# print(mul[0])
+# # Resultado: 1
 
-print(mul[2])
-# Resultado: [[111, 222], [333, 444]]
+# print(mul[2])
+# # Resultado: [[111, 222], [333, 444]]
 
-print(mul[2][1][0])
-# Resultado: 333
+# print(mul[2][1][0])
+# # Resultado: 333
 

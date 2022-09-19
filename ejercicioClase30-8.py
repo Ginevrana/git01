@@ -1,14 +1,12 @@
 # # Ejercicio 1
-# def main():
-#     pass
+def main():
+    pass
 
-#     impar = input("Ingrese un número impar: ")
+    n1= (int (input("Ingrese un numero impar: ")))
 
-#     if (int(impar) % 2):
-#         print("El número ingresado es impar")
-#     else:
-#         print(input("Ingrese un número impar: "))
-#     print("Próxima instrucción")
+    while n1 % 2 == 0:
+        n1= (int (input("Ingrese un numero impar: ")))
+    print ("Ingresaste un numero impar")
 
 
 # # Ejercicio 2
@@ -44,22 +42,22 @@
 #             break
 
 
-# Ejercicio 4
+# # Ejercicio 4
 
-verduleria = (["manzanas", "peras", "naranjas"])
-contador=0
+# verduleria = (["manzanas", "peras", "naranjas"])
+# contador=0
 
-for i in verduleria:
-    contador=contador+1
-print (contador)
+# for i in verduleria:
+#     contador=contador+1
+# print (contador)
 
-# Ejercicio 5
-numeros=[1,56,3,78,24]
-sumado=0
+# # Ejercicio 5
+# numeros=[1,56,3,78,24]
+# sumado=0
 
-for i in numeros:
-    sumado=sumado + i
-print(sumado)
+# for i in numeros:
+#     sumado=sumado + i
+# print(sumado)
 
 
 # # Ejercicio 6
