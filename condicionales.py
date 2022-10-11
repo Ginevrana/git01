@@ -33,13 +33,12 @@ def main():
 
 # Flujo condicional III
     c=3
-    if (c =< 4):
+    if (c <= 4):
         print(a)
     elif (c == 5):
         print("Es igual a 5")
     else:
         print("Es mayor a 5")
-
     print("Próxima instrucción")
 
 #-------------------------------------------------------------------------------
